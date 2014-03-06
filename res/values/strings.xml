@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+			app metadata
+	-->
+	<string name="app_name">list2do</string>
+	<string name="app_version">${project.version}</string>
+
+	<!--
+			activity title
+	-->
+	<string name="activity_title_home">List 2 do</string>
+
+	<!--
+			button name
+	-->
+	<string name="btn_name_yes">Yes</string>
+	<string name="btn_name_no">No</string>
+	<string name="btn_name_ok">OK</string>
+	<string name="btn_name_add">Add</string>
+	<string name="btn_name_save">Save</string>
+	<string name="btn_name_cancel">Cancel</string>
+	<string name="btn_name_create">Create</string>
+	<!--
+			label
+	-->
+	<string name="lbl_sort_by_date">Sort by date</string>
+	<string name="lbl_sort_by_priority">Sort by priority</string>
+	<string name="lbl_sort_by_name">Sort by name</string>
+	<string name="lbl_speak_slowly">Please speak slowly and clearly</string>
+	<string name="lbl_today">Todo</string>
+	<string name="lbl_tomorrow">Tomorrow</string>
+	<string name="lbl_later">Later</string>
+	<string name="lbl_removed_completed_tasks">Removed completed tasks</string>
+	<string name="lbl_notify_service_on">ON</string>
+	<string name="lbl_notify_service_off">OFF</string>
+	<!--
+			hint labels
+	-->
+	<string name="hint_exercise_enter_name">Exercise name</string>
+    <string name="hint_task_name">Muszę zrobić</string>
+    <string name="hint_task_note">Notatka (opcjonalnie)</string>
+	<!--
+			dialog label
+	-->
+	<string name="dialog_lbl_once">Once</string>
+	<string name="dialog_lbl_daily">Daily</string>
+	<string name="dialog_lbl_weekly">Weekly</string>
+	<string name="dialog_lbl_never">Never</string>
+	<string name="dialog_lbl_weeks">weeks</string>
+	<string name="dialog_lbl_days">days</string>
+	<string name="dialog_lbl_none">None</string>
+	<string name="dialog_lbl_low">Low</string>
+	<string name="dialog_lbl_medium">Medium</string>
+	<string name="dialog_lbl_height">Hight</string>
+	<string name="dialog_lbl_off">Off</string>
+	<string name="dialog_lbl_on_time">On time</string>
+	<string name="dialog_lbl_five_min_before">5 min before</string>
+	<string name="dialog_lbl_ten_min_before">10 min before</string>
+	<string name="dialog_lbl_thirty_min_before">30 min before</string>
+	<string name="dialog_lbl_one_hour_before">1 hour before</string>
+	<string name="dialog_lbl_only_once">Only Once</string>
+	<string name="dialog_lbl_once_a_day">Once a day</string>
+	<string name="dialog_lbl_once_a_week">Once a week</string>
+	<string name="dialog_lbl_once_a_month">Once a month</string>
+
+	<!--
+			dialog title
+	-->
+	<string name="dialog_title_no_google_account">No Google account</string>
+	<string name="dialog_title_priority">Priority</string>
+	<string name="dialog_title_reminder">Reminder</string>
+	<string name="dialog_title_repeat">Repeat</string>
+	<string name="dialog_title_missing_name">Missing name</string>
+	<string name="dialog_title_name_is_exists">Name already exists</string>
+	<string name="dialog_title_remove_completed_tasks">Delete completed tasks</string>
+	<!--
+			preference title
+	-->
+	<string name="preference_key_category_google_task">google_task_category_key</string>
+	<string name="preference_key_category_tasks">category_tasks_key</string>
+	<string name="preference_category_google_tasks">Google tasks</string>
+	<string name="preference_category_tasks">Tasks</string>
+	<string name="preference_title_google_account">Google Account</string>
+	<string name="preference_title_notify_service_tasks">Notification tasks</string>
+	<string name="preference_summary_no_choose_account">Account is not selected</string>
+	<string name="preference_title_synchronize_now">Sync now</string>
+	<string name="preference_summary_synchronize_now">Synchronize with Google Tasks now</string>
+	<!--
+			dialog messages
+	-->
+	<string name="dialog_msg_missing_name">Please fill name field</string>
+	<string name="dialog_msg_name_is_not_available">Please change the name because it already exists</string>
+	<string name="dialog_msg_select_account">Please go to settings and choose the Google account to sync.</string>
+	<string name="dialog_msg_sync_google_tasks">Sync Google tasks...</string>
+	<string name="dialog_msg_remove_completed_tasks">Do you want to delete all completed tasks?</string>
+
+	<!--
+			tosat
+	-->
+	<string name="toast_text_crash">The application encountered not expected problem, report has been sent to developers to help him fix the issue</string>
+	<!--
+			menu
+	-->
+	<string name="menu_lbl_feedback">Send feedback</string>
+	<string name="menu_lbl_settings">Settings</string>
+	<string name="menu_lbl_about">About application</string>
+	<!--
+			calendar months
+	-->
+	<string name="calendar_month_lbl_january">january</string>
+	<string name="calendar_month_lbl_february">february</string>
+	<string name="calendar_month_lbl_march">march</string>
+	<string name="calendar_month_lbl_april">april</string>
+	<string name="calendar_month_lbl_may">may</string>
+	<string name="calendar_month_lbl_june">june</string>
+	<string name="calendar_month_lbl_july">july</string>
+	<string name="calendar_month_lbl_august">august</string>
+	<string name="calendar_month_lbl_september">september</string>
+	<string name="calendar_month_lbl_october">october</string>
+	<string name="calendar_month_lbl_november">november</string>
+	<string name="calendar_month_lbl_december">december</string>
+
+	<string name="calendar_month_short_lbl_january">JAN</string>
+	<string name="calendar_month_short_lbl_february">FEB</string>
+	<string name="calendar_month_short_lbl_march">MAR</string>
+	<string name="calendar_month_short_lbl_april">APR</string>
+	<string name="calendar_month_short_lbl_may">MAY</string>
+	<string name="calendar_month_short_lbl_june">JUN</string>
+	<string name="calendar_month_short_lbl_july">JUL</string>
+	<string name="calendar_month_short_lbl_august">AUG</string>
+	<string name="calendar_month_short_lbl_september">SEP</string>
+	<string name="calendar_month_short_lbl_october">OCT</string>
+	<string name="calendar_month_short_lbl_november">NOV</string>
+	<string name="calendar_month_short_lbl_december">DEC</string>
+	<!--
+			calendar days
+	-->
+	<string name="calendar_day_lbl_sunday">Sun</string>
+	<string name="calendar_day_lbl_monday">Mon</string>
+	<string name="calendar_day_lbl_tuesday">Tue</string>
+	<string name="calendar_day_lbl_wednesday">Wed</string>
+	<string name="calendar_day_lbl_thursday">Thu</string>
+	<string name="calendar_day_lbl_friday">Fri</string>
+	<string name="calendar_day_lbl_saturday">Sat</string>
+
+</resources>

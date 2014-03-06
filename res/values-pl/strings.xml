@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+			app metadata
+	-->
+	<string name="app_name">List 2 Do</string>
+	<string name="app_version">${project.version}</string>
+	<!--
+			activity title
+	-->
+	<string name="activity_title_home">List 2 Do</string>
+	<!--
+			button name
+	-->
+	<string name="btn_name_yes">Tak</string>
+	<string name="btn_name_no">Nie</string>
+	<string name="btn_name_ok">OK</string>
+	<string name="btn_name_add">Dodaj</string>
+	<string name="btn_name_save">Zapisz</string>
+	<string name="btn_name_cancel">Anuluj</string>
+	<string name="btn_name_create">Utwórz</string>
+	<!--
+			label
+	-->
+	<string name="lbl_sort_by_date">Sortuj po dacie</string>
+	<string name="lbl_sort_by_priority">Sortuj po priorytecie</string>
+	<string name="lbl_sort_by_name">Sortuj po nazwie</string>
+	<string name="lbl_speak_slowly">Prosze mówić wolno i wyraźnie</string>
+	<string name="lbl_today">Dzisiaj</string>
+	<string name="lbl_tomorrow">Jutro</string>
+	<string name="lbl_later">Później</string>
+	<string name="lbl_removed_completed_tasks">Usunięto wszystkie wykonane dotąd zadania</string>
+	<string name="lbl_notify_service_on">Włączony</string>
+	<string name="lbl_notify_service_off">Wyłączony</string>
+	<!--
+			hint labels
+	-->
+	<string name="hint_exercise_enter_name">Nazwa ćwiczenia</string>
+	<!--
+			dialog label
+	-->
+	<string name="dialog_lbl_once">Jednorazowo</string>
+	<string name="dialog_lbl_daily">Codziennie</string>
+	<string name="dialog_lbl_weekly">Tygodniowo</string>
+	<string name="dialog_lbl_never">Nigdy</string>
+	<string name="dialog_lbl_weeks">tygodnie</string>
+	<string name="dialog_lbl_days">dni</string>
+	<string name="dialog_lbl_none">Brak</string>
+	<string name="dialog_lbl_low">Niski</string>
+	<string name="dialog_lbl_medium">Średni</string>
+	<string name="dialog_lbl_height">Wysoki</string>
+	<string name="dialog_lbl_off">Wył.</string>
+	<string name="dialog_lbl_on_time">W termin</string>
+	<string name="dialog_lbl_five_min_before">5 min wcześniej</string>
+	<string name="dialog_lbl_ten_min_before">10 min wcześniej</string>
+	<string name="dialog_lbl_thirty_min_before">30 min wcześniej</string>
+	<string name="dialog_lbl_one_hour_before">1 godz wcześniej</string>
+	<string name="dialog_lbl_only_once">Tylko raz</string>
+	<string name="dialog_lbl_once_a_day">Codziennie</string>
+	<string name="dialog_lbl_once_a_week">Co tydzień</string>
+	<string name="dialog_lbl_once_a_month">Co miesiąc</string>
+	<!--
+			dialog title
+	-->
+	<string name="dialog_title_no_google_account">Brak konta Google</string>
+	<string name="dialog_title_priority">Priorytet</string>
+	<string name="dialog_title_reminder">Przypomnienie</string>
+	<string name="dialog_title_repeat">Powtarzanie</string>
+	<string name="dialog_title_missing_name">Brak nazwy</string>
+	<string name="dialog_title_name_is_exists">Nazwa już istnieje</string>
+	<string name="dialog_title_remove_completed_tasks">Usuwanie wykonanych zadań</string>
+	<!--
+			preference title
+	-->
+	<string name="preference_category_google_tasks">Zadania Google</string>
+	<string name="preference_title_google_account">Konto google</string>
+	<string name="preference_category_tasks">Zadania</string>
+	<string name="preference_summary_no_choose_account">Konto nie zostało wybrane</string>
+	<string name="preference_title_notify_service_tasks">System powiadomień</string>
+	<string name="preference_title_synchronize_now">Synchronizuj teraz</string>
+	<string name="preference_summary_synchronize_now">Synchronizacja z zadaniami Google</string>
+	<!--
+			dialog messages
+	-->
+	<string name="dialog_msg_missing_name">Proszę wypełnić pole z nazwą</string>
+	<string name="dialog_msg_name_is_not_available">Proszę zmienić nazwę ponieważ obecna już istnieje</string>
+	<string name="dialog_msg_select_account">Proszę przejść do ustawień aplikacji i wybrać konto do sychronizacji zadań.</string>
+	<string name="dialog_msg_sync_google_tasks">Synchronizacja z</string>
+	<string name="dialog_msg_remove_completed_tasks">Czy jesteś pewny, że chcesz usunąć wszystkie wykonane dotąd zadania z zakładki</string>
+	<!--
+			tosat
+	-->
+	<string name="toast_text_crash">Aplikacja napotkała nie spodziewany problem, raport o błędzie został wysłany do autorów aby pomóc im go rozwiązać</string>
+	<!--
+			menu
+	-->
+	<string name="menu_lbl_feedback">Wyślij opinię</string>
+	<string name="menu_lbl_settings">Ustawienia</string>
+	<string name="menu_lbl_about">O aplikacji</string>
+	<!--
+			calendar months
+	-->
+	<string name="calendar_month_lbl_january">styczeń</string>
+	<string name="calendar_month_lbl_february">luty</string>
+	<string name="calendar_month_lbl_march">marzec</string>
+	<string name="calendar_month_lbl_april">kwiecień</string>
+	<string name="calendar_month_lbl_may">maj</string>
+	<string name="calendar_month_lbl_june">czerwiec</string>
+	<string name="calendar_month_lbl_july">lipiec</string>
+	<string name="calendar_month_lbl_august">sierpień</string>
+	<string name="calendar_month_lbl_september">wrzesień</string>
+	<string name="calendar_month_lbl_october">październik</string>
+	<string name="calendar_month_lbl_november">listopad</string>
+	<string name="calendar_month_lbl_december">grudzień</string>
+
+	<string name="calendar_month_short_lbl_january">STY</string>
+	<string name="calendar_month_short_lbl_february">LUT</string>
+	<string name="calendar_month_short_lbl_march">MAR</string>
+	<string name="calendar_month_short_lbl_april">KWI</string>
+	<string name="calendar_month_short_lbl_may">MAJ</string>
+	<string name="calendar_month_short_lbl_june">CZE</string>
+	<string name="calendar_month_short_lbl_july">LIP</string>
+	<string name="calendar_month_short_lbl_august">SIE</string>
+	<string name="calendar_month_short_lbl_september">WRZ</string>
+	<string name="calendar_month_short_lbl_october">PAŹ</string>
+	<string name="calendar_month_short_lbl_november">LIS</string>
+	<string name="calendar_month_short_lbl_december">GRU</string>
+	<!--
+			calendar days
+	-->
+	<string name="calendar_day_lbl_sunday">N</string>
+	<string name="calendar_day_lbl_monday">Pn</string>
+	<string name="calendar_day_lbl_tuesday">Wt</string>
+	<string name="calendar_day_lbl_wednesday">Śr</string>
+	<string name="calendar_day_lbl_thursday">Cz</string>
+	<string name="calendar_day_lbl_friday">Pt</string>
+	<string name="calendar_day_lbl_saturday">So</string>
+
+</resources>

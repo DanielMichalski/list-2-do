@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item type="id" name="panelHandle"/>
+	<item type="id" name="panelContent"/>
+
+
+	<item type="id" name="task_sync_action_item"/>
+	<item type="id" name="task_add_action_item"/>
+	<item type="id" name="task_sort_action_item"/>
+
+
+	<item type="id" name="task_sort_by_date_submenu"/>
+	<item type="id" name="task_sort_by_name_submenu"/>
+	<item type="id" name="task_sort_by_priority_submenu"/>
+
+</resources>

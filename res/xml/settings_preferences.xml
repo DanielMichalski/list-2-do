@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+			android:key="@string/preference_key_category_google_task"
+			android:title="@string/preference_category_google_tasks">
+	</PreferenceCategory>
+
+	<PreferenceCategory
+			android:key="@string/preference_key_category_tasks"
+			android:title="@string/preference_category_tasks">
+	</PreferenceCategory>
+
+</PreferenceScreen>

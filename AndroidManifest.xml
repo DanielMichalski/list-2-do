@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="pl.sggw" android:versionCode="1" android:versionName="1.0-SNAPSHOT">
+
+    <application android:debuggable="true"
+				 android:name=".List2DoApp"
+                 android:icon="@drawable/icon"
+                 android:label="@string/app_name"
+                 android:theme="@style/AppTheme">
+
+		<activity android:name=".activities.home.HomeActivity"
+		          android:theme="@android:style/Theme.Black.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name=".activities.editor.TaskEditorActivity"/>
+		<activity android:name=".activities.database_test.TestDatabaseActivity"/>
+		<activity android:name=".activities.home.TodayTasksActivity"/>
+		<activity android:name=".activities.home.TomorrowTasksActivity"/>
+		<activity android:name=".activities.home.LaterTasksActivity"/>
+		<activity android:name=".activities.calendar.CalendarActivity"/>
+		<activity android:name=".preferences.settings.SettingsPreferencesActivity" android:screenOrientation="portrait"/>
+
+		<service
+				android:enabled="true"
+				android:name=".service.NotifyService">
+			<intent-filter>
+				<action
+						android:name="pl.sggw.service.NotifyService.SERVICE"/>
+			</intent-filter>
+		</service>
+
+		<receiver android:name=".service.NotifyReceiver"/>
+		<receiver android:name=".service.ScheduleServiceReceiver"/>
+
+	</application>
+
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+	<!--permissions for acra-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<uses-sdk android:minSdkVersion="8"/>
+
+</manifest>
+

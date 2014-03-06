@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="stroke">#ff464646</color>
+	<color name="border">#ff323232</color>
+
+	<!--wheel border-->
+	<color name="border_start">#333333</color>
+	<color name="border_center">#ff606060</color>
+	<color name="border_end">#333333</color>
+
+	<!--wheel background-->
+	<color name="wheel_start">#ff2f2f2f</color>
+	<color name="wheel_center">#ff3f3f3f</color>
+	<color name="wheel_end">#ff2f2f2f</color>
+
+	<!--center line in wheel-->
+	<color name="center_line_dark">#ff353535</color>
+	<color name="center_line_light">#ff4e4e4e</color>
+
+</resources>

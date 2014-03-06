@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:layout_below="@id/actionbar"
+              android:padding="5dp"
+              android:id="@+id/root" android:background="@android:color/background_dark">
+
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/blue"
+            android:clickable="false"
+            android:layout_marginBottom="15dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwa zadania"
+            android:id="@+id/task_name_label" android:layout_gravity="left|center_vertical"/>
+
+    <Button android:id="@+id/task_title_label_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_edit_activity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size"
+            android:clickable="false"
+            android:lines="2"
+            android:gravity="center_vertical|left" android:text="Nazwa" android:paddingLeft="15dp"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/task_note_label" android:layout_gravity="left|center_vertical" android:text="Notatka"/>
+
+    <Button android:id="@+id/task_note_label_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="brakt"
+            android:background="@drawable/buttons_edit_activity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size"
+            android:clickable="false"
+            android:paddingLeft="15dp"
+            android:lines="2"
+            android:gravity="center_vertical|left"/>
+
+
+</LinearLayout>

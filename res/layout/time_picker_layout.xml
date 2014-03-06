@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		>
+
+	<pl.sggw.widget.wheel.WheelView android:id="@+id/hour_wheel_view"
+	                                android:layout_height="wrap_content"
+	                                android:layout_width="wrap_content"
+	                                android:layout_gravity="center"
+			/>
+
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:text=":"
+			android:gravity="center"
+			android:textSize="50dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+	        android:textColor="@color/white"
+			/>
+
+	<pl.sggw.widget.wheel.WheelView android:id="@+id/minute_wheel_view"
+	                                android:layout_height="wrap_content"
+	                                android:layout_width="wrap_content"
+	                                android:layout_gravity="center"
+			/>
+
+</LinearLayout>

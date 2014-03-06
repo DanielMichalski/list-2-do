@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="radius_corners">5dip</dimen>
+    <dimen name="wheel_border">3dip</dimen>
+    <dimen name="stroke_width">1dip</dimen>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+		>
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/height_list_row"
+			android:orientation="horizontal"
+			android:gravity="center_vertical">
+
+        <View android:id="@+id/task_tag_view"
+		      android:layout_width="3dip"
+		      android:layout_height="fill_parent"/>
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/margin_text_list_row"
+                android:layout_marginRight="@dimen/margin_text_list_row" android:layout_weight="1">
+            <TextView android:id="@+id/first_line_text_view"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:gravity="center_vertical"
+                      android:singleLine="true"
+                      android:textAppearance="?android:attr/textAppearanceMedium"
+                      android:linksClickable="false" android:layout_marginBottom="10dp"/>
+            <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <View   android:id="@+id/strike_line_view"
+                        android:layout_centerInParent="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_gravity="center"
+                        android:focusable="false"
+                        android:background="@color/blue_selector"
+                        android:layout_marginBottom="2dp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/second_line_text_view" android:layout_gravity="bottom"
+                        android:textColor="@color/white" android:textSize="10dp" android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"/>
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+				android:id="@+id/calendar_page_linear_layout"
+				android:layout_width="@dimen/dimen_calendar_page"
+				android:layout_height="@dimen/dimen_calendar_page"
+				android:orientation="vertical"
+				android:visibility="gone"
+				android:layout_marginRight="10dp">
+			<TextView android:id="@+id/short_month_text_view"
+			          android:layout_width="fill_parent"
+			          android:layout_height="wrap_content"
+			          android:singleLine="true"
+			          android:gravity="center"
+			          android:textSize="10dip"
+			          android:textColor="@color/white"
+			          android:background="@color/calendar_page_month_background"/>
+			<TextView android:id="@+id/day_no_text_view"
+			          android:layout_width="fill_parent"
+			          android:layout_height="wrap_content"
+			          android:singleLine="true"
+			          android:gravity="center"
+			          android:layout_weight="1"
+			          android:textSize="20dip"
+			          android:textColor="@color/black"
+			          android:background="@color/calendar_page_day_background"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

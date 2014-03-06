@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <include android:id="@+id/bottom_buttons_layout"
+             layout="@layout/buttons_ok_cancel_layout"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_above="@id/bottom_buttons_layout"
+            android:padding="5dp">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <ImageButton android:id="@+id/button_micro"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:background="@drawable/micro_btn_background"
+                         android:clickable="true"
+                         android:layout_gravity="center_vertical"
+                         android:layout_marginLeft="@dimen/margin_around"
+                         android:layout_marginRight="@dimen/margin_around"/>
+            <EditText android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:singleLine="true"
+                      android:id="@+id/task_name_edit_text"
+                      android:layout_gravity="center_vertical"
+                      android:textSize="@dimen/task_name_text_size"
+                      android:selectAllOnFocus="true"
+                      android:hint="@string/hint_task_name"
+                      android:maxLines="1"
+                      android:maxLength="70"/>
+        </LinearLayout>
+
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/edit_note_text"
+                android:hint="Notatka (opcjonalnie)"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center"
+                android:inputType="textMultiLine"
+                android:gravity="left|top"
+                android:scrollHorizontally="false"
+                android:textSize="@dimen/task_name_text_size"
+                android:minLines="2"
+                android:layout_weight="1"
+                />
+
+        <Button android:id="@+id/priority_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/ButtonTaskEditor"
+                android:drawableLeft="@drawable/priorytet_btn_background"
+                android:text="priorytet" />
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/separator"
+                android:clickable="false"/>
+
+        <Button android:id="@+id/calendar_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/calendar_btn_background"
+                style="@style/ButtonTaskEditor"
+                android:text="termin" />
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/separator"
+                android:clickable="false"/>
+
+        <Button android:id="@+id/reminder_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/alarm_btn_background"
+                style="@style/ButtonTaskEditor"
+                android:text="przypomnienie" />
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/separator"
+                android:clickable="false"/>
+
+        <Button android:id="@+id/repeat_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/repeat_btn_background"
+                style="@style/ButtonTaskEditor"
+                android:text="powtarzanie" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

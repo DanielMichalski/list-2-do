@@ -1,0 +1,32 @@
+<resources>
+
+	<!--Dimension view-->
+    <dimen name="height_tab_widget">50dip</dimen>
+	<dimen name="height_list_row">55dip</dimen>
+	<dimen name="height_calendar_cell">30dip</dimen>
+	<dimen name="height_calendar_bar">50dip</dimen>
+	<dimen name="dimen_calendar_page">40dip</dimen>
+
+	<!--Margin-->
+	<dimen name="margin_around">10dip</dimen>
+	<dimen name="margin_submenu_icon">5dip</dimen>
+	<dimen name="margin_left_submenu_text">5dip</dimen>
+	<dimen name="margin_right_submenu_text">10dip</dimen>
+	<dimen name="margin_text_list_row">10dip</dimen>
+    <dimen name="margin_left_edit_activity">30dip</dimen>
+
+	<!--Text Size-->
+	<dimen name="text_size_calendar_month">20dip</dimen>
+	<dimen name="text_size_calendar_year">25dip</dimen>
+	<dimen name="text_size_calendar_cell">12dip</dimen>
+	<dimen name="text_size_time_picker">25dip</dimen>
+	<dimen name="app_text_size">16dip</dimen>
+	<dimen name="task_name_text_size">14dip</dimen>
+	<dimen name="edit_text_size">12dip</dimen>
+	<dimen name="text_size_tab_widget">12dip</dimen>
+
+	<!--Padding-->
+	<dimen name="padding_calendar_header">5dip</dimen>
+	<dimen name="padding_submenu_layout">10dip</dimen>
+
+</resources>
